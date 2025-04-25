@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+.env
+npm-debug.log
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+.venv/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Others
+*.log
+*.sqlite3
+*.db
+
+# Credentials and configs
+backend/config/credentials.json
+backend/config/.env

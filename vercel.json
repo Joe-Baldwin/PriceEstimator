@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "http://localhost:8000/api/:path*"
+    },
+    {
+      "source": "/vendors/:path*",
+      "destination": "http://localhost:8000/vendors/:path*"
+    },
+    {
+      "source": "/export/:path*",
+      "destination": "http://localhost:8000/export/:path*"
+    },
+    {
+      "source": "/email_estimate",
+      "destination": "http://localhost:8000/email_estimate"
+    }
+  ]
+}

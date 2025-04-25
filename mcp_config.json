@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "google-drive": {
+      "command": "python",
+      "args": ["d:/Price Estimator/mcp/google_drive_mcp_server.py"],
+      "env": {
+        "GOOGLE_DRIVE_CREDENTIALS": "d:/Price Estimator/backend/config/credentials.json"
+      }
+    },
+    "sqlite": {
+      "command": "python",
+      "args": ["d:/Price Estimator/mcp/sqlite_mcp_server.py"],
+      "env": {
+        "SQLITE_DB_PATH": "d:/Price Estimator/backend/price_estimator.db"
+      }
+    },
+    "sendgrid": {
+      "command": "python",
+      "args": ["d:/Price Estimator/mcp/sendgrid_mcp_server.py"],
+      "env": {
+        "SENDGRID_API_KEY": "<replace_with_your_key>"
+      }
+    }
+  }
+}
