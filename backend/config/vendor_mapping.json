@@ -1,0 +1,199 @@
+{
+  "vendors": [
+    {
+      "id": "vendor1",
+      "name": "Ambiance",
+      "folder_id": "1M0SQkggTE69rzVXx9WUaPFZe0AvUMiru",
+      "file_format": "excel",
+      "file_name": "prices.xlsx",
+      "columns": {
+        "code": "VendorID",
+        "description": "ItemName",
+        "msrp_price": "RetailPrice",
+        "internal_cost": "Cost"
+      }
+    },
+    {
+      "id": "vendor2",
+      "name": "Berlin Gardens",
+      "folder_id": "1gQkueR05yO31UAOPQQ-kEN0kOUouNxwp",
+      "file_format": "pdf",
+      "file_name": "Copy of 2025 Furniture Wholesale Pricelist.pdf",
+      "pdf_rules": {
+        "item_number_pattern": "Item #[:\\s]*([A-Z0-9-]+)",
+        "description_pattern": "Product Description[:\\s]*(.+)",
+        "frame_price_pattern": "Frame Price Only[:\\s]*\\$?([0-9,.]+)",
+        "fabric_group_a_pattern": "Fabric Group A[:\\s]*\\$?([0-9,.]+)",
+        "fabric_group_b_pattern": "Fabric Group B[:\\s]*\\$?([0-9,.]+)",
+        "fabric_group_c_pattern": "Fabric Group C[:\\s]*\\$?([0-9,.]+)",
+        "fabric_group_d_pattern": "Fabric Group D[:\\s]*\\$?([0-9,.]+)"
+      },
+      "columns": {
+        "item_number": "item_number",
+        "description": "description",
+        "frame_price": "frame_price",
+        "fabric_group_a": "fabric_group_a",
+        "fabric_group_b": "fabric_group_b",
+        "fabric_group_c": "fabric_group_c",
+        "fabric_group_d": "fabric_group_d"
+      }
+    },
+    {
+      "id": "vendor3",
+      "name": "Eiklor",
+      "folder_id": "1-bIl-R-_K7_KKaJWvJGz8sL6FigKQvA3",
+      "file_format": "excel",
+      "file_name": "prices.xlsx",
+      "columns": {
+        "code": "VendorID",
+        "description": "ItemName",
+        "msrp_price": "RetailPrice",
+        "internal_cost": "Cost"
+      }
+    },
+    {
+      "id": "vendor4",
+      "name": "Hearthstone",
+      "folder_id": "1AaHYgQLOb3FzBuCSOrmwUmQbWbCB0VNZ",
+      "file_format": "excel",
+      "file_name": "prices.xlsx",
+      "columns": {
+        "code": "VendorID",
+        "description": "ItemName",
+        "msrp_price": "RetailPrice",
+        "internal_cost": "Cost"
+      }
+    },
+    {
+      "id": "vendor5",
+      "name": "Jotul",
+      "folder_id": "1eTWkSGB3Zo26FDQ0euha9GYPXcYRu1aY",
+      "file_format": "excel",
+      "file_name": "prices.xlsx",
+      "columns": {
+        "code": "VendorID",
+        "description": "ItemName",
+        "msrp_price": "RetailPrice",
+        "internal_cost": "Cost"
+      }
+    },
+    {
+      "id": "vendor6",
+      "name": "Majestic",
+      "folder_id": "1KoC-CPTm3lIsMIni2RC_DJBwAL9Xo9OR",
+      "file_format": "excel",
+      "file_name": "prices.xlsx",
+      "columns": {
+        "code": "VendorID",
+        "description": "ItemName",
+        "msrp_price": "RetailPrice",
+        "internal_cost": "Cost"
+      }
+    },
+    {
+      "id": "vendor7",
+      "name": "Marquis",
+      "folder_id": "1pUruflTYp9KwEMIQ5XtdAIQxDFSPXoer",
+      "file_format": "excel",
+      "file_name": "prices.xlsx",
+      "columns": {
+        "code": "VendorID",
+        "description": "ItemName",
+        "msrp_price": "RetailPrice",
+        "internal_cost": "Cost"
+      }
+    },
+    {
+      "id": "vendor8",
+      "name": "Mendota",
+      "folder_id": "1UPQISSAHK99WVLtXf3QLAMEHBijBixTL",
+      "file_format": "excel",
+      "file_name": "Copy of MASTER Price List Jan 17, 2025 UPLOAD SHEET.xlsx",
+      "header row": 1,
+      "columns": {
+        "code": "Part Number",
+        "description": "Description",
+        "msrp_price": "MSRP",
+        "internal_cost": "Cost"
+      }
+    },
+    {
+      "id": "vendor9",
+      "name": "Milkhouse Candles",
+      "folder_id": "1JstvMv_Fy9Xqmanm71PdkgCd_whzdtMM",
+      "file_format": "excel",
+      "file_name": "prices.xlsx",
+      "columns": {
+        "code": "VendorID",
+        "description": "ItemName",
+        "msrp_price": "RetailPrice",
+        "internal_cost": "Cost"
+      }
+    },
+    {
+      "id": "vendor10",
+      "name": "Napoleon",
+      "folder_id": "1NZ3qvOBcCssVSPKnZezLPCUN06xx27fk",
+      "file_format": "excel",
+      "file_name": "prices.xlsx",
+      "columns": {
+        "code": "VendorID",
+        "description": "ItemName",
+        "msrp_price": "RetailPrice",
+        "internal_cost": "Cost"
+      }
+    },
+    {
+      "id": "vendor11",
+      "name": "Ortal",
+      "folder_id": "1LRjLi9qkjwTTC9JCj4mE0xCaTHtRbnXy",
+      "file_format": "excel",
+      "file_name": "prices.xlsx",
+      "columns": {
+        "code": "VendorID",
+        "description": "ItemName",
+        "msrp_price": "RetailPrice",
+        "internal_cost": "Cost"
+      }
+    },
+    {
+      "id": "vendor12",
+      "name": "RSF",
+      "folder_id": "11piQU64EVZ5Npu429cXcjKVp8pnJ4h_9",
+      "file_format": "excel",
+      "file_name": "prices.xlsx",
+      "columns": {
+        "code": "VendorID",
+        "description": "ItemName",
+        "msrp_price": "RetailPrice",
+        "internal_cost": "Cost"
+      }
+    },
+    {
+      "id": "vendor13",
+      "name": "Stuv",
+      "folder_id": "1zdDi-Aq01UE52nFBEGizRyfuSzTvjaEV",
+      "file_format": "excel",
+      "file_name": "prices.xlsx",
+      "columns": {
+        "code": "VendorID",
+        "description": "ItemName",
+        "msrp_price": "RetailPrice",
+        "internal_cost": "Cost"
+      }
+    },
+    {
+      "id": "vendor14",
+      "name": "Valor",
+      "folder_id": "1CyHJyIFGoyMGo9XmdbU9KDyk2ANL1DcR",
+      "file_format": "excel",
+      "file_name": "prices.xlsx",
+      "columns": {
+        "code": "VendorID",
+        "description": "ItemName",
+        "msrp_price": "RetailPrice",
+        "internal_cost": "Cost"
+      }
+    }
+  ]
+}
